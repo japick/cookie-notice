@@ -1,0 +1,28 @@
+/* Global styles - remove */
+* {
+   padding: 0;
+   margin: 0;
+}
+
+/* Cookie module */
+.module--cookie-notice {
+   /* Theme specific styles - overwrite these */
+   background-color: #f1f1f1;
+   padding: 50px;
+   /* End theme specific styles */
+   width: 100%;
+   position: fixed;
+   z-index: 99;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   box-sizing: border-box;
+   display: none;
+}
+
+span,
+.btn {
+   display: inline-block;
+   margin-right: 2em;
+   cursor: pointer;
+}
