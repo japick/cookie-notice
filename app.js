@@ -6,7 +6,6 @@
          thinklab.els = {};
          thinklab.vars = {};
 
-         thinklab.els.$body = $('body');
          thinklab.els.$window = $(window);
          thinklab.els.$document = $(document);
 
